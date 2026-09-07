@@ -47,10 +47,10 @@ jobs:
           fi
 
       - name: Setup Decomp Workspace
-        run: ./gradlew setupDecompWorkspace --no-daemon
+        run: ./gradlew -x getAssets -x getAssetIndex setupDecompWorkspace --no-daemon
 
       - name: Build Mod JAR
-        run: ./gradlew build --no-daemon
+        run: ./gradlew build -x getAssets -x getAssetIndex --no-daemon
 
       - name: Upload Artifact (on normal push)
         uses: actions/upload-artifact@v4
