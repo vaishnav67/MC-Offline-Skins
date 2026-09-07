@@ -1,0 +1,23 @@
+# Gradle build output & caches
+.gradle/
+build/
+
+# Minecraft client/server test run folders (logs, world saves, configs)
+run/
+
+# IDE files (IntelliJ / Eclipse)
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.settings/
+.classpath
+.project
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Log files
+*.log

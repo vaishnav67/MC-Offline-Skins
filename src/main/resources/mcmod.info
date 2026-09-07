@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "offlineskins",
+    "name": "Offline Skins",
+    "description": "Restores and customizes player skins in offline mode via direct URL or Minecraft username.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["DeathKnight"],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
